@@ -7,7 +7,7 @@ export const Produits = [
     stock: 50,
     taille: ["S", "M", "L", "XL"],
     couleur: ["Blanc", "Noir", "Bleu"],
-    image: "https://example.com/images/tshirt-coton.jpg"
+    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const Produits = [
     stock: 30,
     taille: ["28", "30", "32", "34"],
     couleur: ["Bleu", "Noir"],
-    image: "https://example.com/images/jean-slim.jpg"
+    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const Produits = [
     stock: 20,
     taille: [40, 41, 42, 43, 44],
     couleur: ["Rouge", "Noir", "Blanc"],
-    image: "https://example.com/images/chaussures-sport.jpg"
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const Produits = [
     stock: 15,
     taille: [38, 39, 40, 41],
     couleur: ["Marron", "Noir"],
-    image: "https://example.com/images/sandales-cuir.jpg"
+    image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const Produits = [
     stock: 40,
     taille: ["S", "M", "L", "XL"],
     couleur: ["Blanc", "Bleu ciel"],
-    image: "https://example.com/images/chemise-classique.jpg"
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const Produits = [
     stock: 25,
     taille: ["M", "L", "XL"],
     couleur: ["Gris", "Noir"],
-    image: "https://example.com/images/pull-laine.jpg"
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ export const Produits = [
     stock: 18,
     taille: ["S", "M", "L"],
     couleur: ["Bleu"],
-    image: "https://example.com/images/veste-jean.jpg"
+    image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ export const Produits = [
     stock: 22,
     taille: ["30", "32", "34", "36"],
     couleur: ["Vert", "Beige"],
-    image: "https://example.com/images/pantalon-cargo.jpg"
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ export const Produits = [
     stock: 12,
     taille: [40, 41, 42, 43],
     couleur: ["Blanc", "Noir"],
-    image: "https://example.com/images/sneakers-tendance.jpg"
+    image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ export const Produits = [
     stock: 10,
     taille: [39, 40, 41, 42],
     couleur: ["Marron", "Noir"],
-    image: "https://example.com/images/bottes-cuir.jpg"
+    image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 11,
@@ -107,7 +107,7 @@ export const Produits = [
     stock: 35,
     taille: ["S", "M", "L"],
     couleur: ["Bleu clair"],
-    image: "https://example.com/images/short-jean.jpg"
+    image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ export const Produits = [
     stock: 28,
     taille: ["S", "M", "L"],
     couleur: ["Rouge", "Jaune", "Blanc"],
-    image: "https://example.com/images/robe-ete.jpg"
+    image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 13,
@@ -127,7 +127,7 @@ export const Produits = [
     stock: 40,
     taille: ["M", "L", "XL"],
     couleur: ["Noir", "Gris"],
-    image: "https://example.com/images/sweat-capuche.jpg"
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 14,
@@ -137,7 +137,7 @@ export const Produits = [
     stock: 14,
     taille: [40, 41, 42, 43],
     couleur: ["Noir"],
-    image: "https://example.com/images/chaussures-habillees.jpg"
+    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 15,
@@ -147,7 +147,7 @@ export const Produits = [
     stock: 20,
     taille: ["S", "M", "L"],
     couleur: ["Noir", "Rose"],
-    image: "https://example.com/images/jupe-plissee.jpg"
+    image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 16,
@@ -157,7 +157,7 @@ export const Produits = [
     stock: 8,
     taille: [41, 42, 43, 44],
     couleur: ["Gris", "Marron"],
-    image: "https://example.com/images/chaussures-randonnee.jpg"
+    image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 17,
@@ -167,7 +167,7 @@ export const Produits = [
     stock: 45,
     taille: ["S", "M", "L"],
     couleur: ["Noir", "Blanc"],
-    image: "https://example.com/images/debardeur-sport.jpg"
+    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 18,
@@ -177,7 +177,7 @@ export const Produits = [
     stock: 16,
     taille: [40, 41, 42],
     couleur: ["Noir", "Bleu marine"],
-    image: "https://example.com/images/chaussures-ville.jpg"
+    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 19,
@@ -187,7 +187,7 @@ export const Produits = [
     stock: 25,
     taille: ["M", "L"],
     couleur: ["Beige", "Gris"],
-    image: "https://example.com/images/cardigan-leger.jpg"
+    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 20,
@@ -197,6 +197,6 @@ export const Produits = [
     stock: 30,
     taille: [39, 40, 41, 42],
     couleur: ["Bleu", "Blanc"],
-    image: "https://example.com/images/espadrilles.jpg"
+    image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80"
   }
 ];
