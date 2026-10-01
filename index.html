@@ -8,9 +8,42 @@
     <title>Ecommerce APP</title>
 </head>
 <style>
+    dialog {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: min(94vw, 1000px);
+        max-height: 88vh;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        overflow: visible;
+        border-radius: 0;
+        opacity: 0;
+        transform: translate(-50%, -45%) scale(0.96);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
 
+    dialog[open] {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    dialog::backdrop {
+        background: rgba(15, 23, 42, 0.55);
+        backdrop-filter: blur(2px);
+    }
+
+    dialog.closing {
+        opacity: 0;
+        transform: translate(-50%, -45%) scale(0.96);
+    }
 </style>
 <body class="bg-gray-50 text-gray-800">
+    <dialog>
+    </dialog>
     <header class="sticky top-0 z-50 flex justify-between items-center h-24 px-8 bg-white shadow-sm">
         <h2 class="text-3xl font-bold text-blue-600">BARBARA-SHOP</h2>
         <ul class="flex list-none gap-3 items-center">
@@ -47,7 +80,7 @@
             </div>
         </section>
 
-        <section class="w-[80%] mx-auto mt-6">
+        <section class="w-[80%] mx-auto mt-6" style="padding-bottom: 130px;">
             <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact</h2>
             <div class="flex flex-col p-2">
             <div class="h-[400px] overflow-hidden rounded-2xl shadow-lg border border-gray-200 border-none">
@@ -63,38 +96,40 @@
                 </div>
 
 
-               <div class=" flex justify-between mt-6">
-                    <div class="">
-                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-                        <i class="fa-brands fa-instagram" style="font-size: 100px;"></i>
-                    </a>
-                    </div>
-                    <div class="">
-                    <a href="https://instagram.com" target="_blank" aria-label="whatsapp">
-                        <i class="fa-brands fa-whatsapp" style="font-size: 100px;"></i>
-                    </a>
-                    </div>
-                    <div class="">
-                    <a href="https://instagram.com" target="_blank" aria-label="tiktok">
-                        <i class="fa-brands fa-tiktok" style="font-size: 100px;"></i>
-                    </a>
-                    </div>
-                    <div class="">
-                    <a href="https://instagram.com" target="_blank" aria-label="snapchat">
-                        <i class="fa-brands fa-snapchat" style="font-size: 100px;"></i>
-                    </a>
-                    </div>
-               </div>   
+            <div class="flex justify-between mt-6 space-x-6">
+                <!-- Instagram -->
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram" style="font-size: 60px; color: oklch(65.6% 0.241 354.308);"></i>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/123456789" target="_blank" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp" style="font-size: 60px; color: oklch(72.3% 0.219 149.579);"></i>
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok" style="font-size: 60px;" ></i>
+                </a>
+
+                <!-- Snapchat -->
+                <a href="https://snapchat.com" target="_blank" aria-label="Snapchat">
+                    <i class="fa-brands fa-snapchat" style="font-size: 60px;color: oklch(85.2% 0.199 91.936);"></i>
+                </a>
+                </div>
+  
             </div>
         </section>
         
     </main>
 
-   <footer class="w-full shadow-sm flex justify-center items-center bg-amber-300 h-32 fixed bottom-0">
-    <div class="max-w-4xl mx-auto text-center text-gray-600">
-        &copy; BARBARA-SHOP 2026-2027 - barbara@gmail.com
-    </div>
-    </footer>
+  <footer class=" w-full bg-gray-900 text-gray-300 
+  py-4" style="position: fixed; bottom: 1px; background-color: rgb(233, 220, 220);padding: 10px;">
+  <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+    <p class="text-sm">&copy; 2026-2027 BARBARA-SHOP</p>
+    <p class="text-sm">barbara@gmail.com</p>
+  </div>
+</footer>
 
     <script type="module" src="./script.js"></script>
 </body>

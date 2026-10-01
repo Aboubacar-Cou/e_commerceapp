@@ -7,6 +7,7 @@ export const Produits = [
     stock: 50,
     taille: ["S", "M", "L", "XL"],
     couleur: ["Blanc", "Noir", "Bleu"],
+    description: "T-shirt confortable en coton doux, parfait pour un look casual au quotidien.",
     image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -17,6 +18,7 @@ export const Produits = [
     stock: 30,
     taille: ["28", "30", "32", "34"],
     couleur: ["Bleu", "Noir"],
+    description: "Jean slim moderne avec coupe ajustée et matière durable pour un style élégant.",
     image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -27,6 +29,7 @@ export const Produits = [
     stock: 20,
     taille: [40, 41, 42, 43, 44],
     couleur: ["Rouge", "Noir", "Blanc"],
+    description: "Chaussures légères et respirantes, idéales pour les déplacements et les séances sportives.",
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -37,6 +40,7 @@ export const Produits = [
     stock: 15,
     taille: [38, 39, 40, 41],
     couleur: ["Marron", "Noir"],
+    description: "Sandales en cuir souple avec une finition raffinée pour un confort saisonnier.",
     image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -47,26 +51,29 @@ export const Produits = [
     stock: 40,
     taille: ["S", "M", "L", "XL"],
     couleur: ["Blanc", "Bleu ciel"],
+    description: "Chemise élégante au coupe impeccable, parfaite pour les looks professionnels et chic.",
     image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 6,
     nom: "Pull laine",
     categorie: "Vêtements",
-    prix: 45.00,
+    prix: 45.0,
     stock: 25,
     taille: ["M", "L", "XL"],
     couleur: ["Gris", "Noir"],
+    description: "Pull chaud et moelleux en laine, idéal pour rester au chaud avec style.",
     image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 7,
     nom: "Veste en jean",
     categorie: "Vêtements",
-    prix: 55.00,
+    prix: 55.0,
     stock: 18,
     taille: ["S", "M", "L"],
     couleur: ["Bleu"],
+    description: "Veste en denim résistante et polyvalente, parfaite pour toutes les saisons.",
     image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -77,36 +84,40 @@ export const Produits = [
     stock: 22,
     taille: ["30", "32", "34", "36"],
     couleur: ["Vert", "Beige"],
+    description: "Pantalon cargo pratique avec poches fonctionnelles et silhouette confortable.",
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 9,
     nom: "Sneakers tendance",
     categorie: "Chaussures",
-    prix: 75.00,
+    prix: 75.0,
     stock: 12,
     taille: [40, 41, 42, 43],
     couleur: ["Blanc", "Noir"],
+    description: "Sneakers modernes et confortables, parfaites pour un look urbain tendance.",
     image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 10,
     nom: "Bottes cuir",
     categorie: "Chaussures",
-    prix: 120.00,
+    prix: 120.0,
     stock: 10,
     taille: [39, 40, 41, 42],
     couleur: ["Marron", "Noir"],
+    description: "Bottes en cuir robuste et élégantes, idéales pour un port quotidien chic.",
     image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 11,
     nom: "Short en jean",
     categorie: "Vêtements",
-    prix: 20.00,
+    prix: 20.0,
     stock: 35,
     taille: ["S", "M", "L"],
     couleur: ["Bleu clair"],
+    description: "Short décontracté et respirant, idéal pour des journées estivales confortables.",
     image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -117,16 +128,18 @@ export const Produits = [
     stock: 28,
     taille: ["S", "M", "L"],
     couleur: ["Rouge", "Jaune", "Blanc"],
+    description: "Robe légère et féminine avec un mouvement agréable pour les journées ensoleillées.",
     image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 13,
     nom: "Sweat à capuche",
     categorie: "Vêtements",
-    prix: 35.00,
+    prix: 35.0,
     stock: 40,
     taille: ["M", "L", "XL"],
     couleur: ["Noir", "Gris"],
+    description: "Sweat à capuche doux et confortable, parfait pour un look décontracté et chaleureux.",
     image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -137,6 +150,7 @@ export const Produits = [
     stock: 14,
     taille: [40, 41, 42, 43],
     couleur: ["Noir"],
+    description: "Chaussures élégantes et raffinées, pensées pour les occasions plus formelles.",
     image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -147,6 +161,7 @@ export const Produits = [
     stock: 20,
     taille: ["S", "M", "L"],
     couleur: ["Noir", "Rose"],
+    description: "Jupe plissée avec une coupe légère et fluide pour un style féminin et dynamique.",
     image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -157,6 +172,7 @@ export const Produits = [
     stock: 8,
     taille: [41, 42, 43, 44],
     couleur: ["Gris", "Marron"],
+    description: "Chaussures résistantes et très confortables pour les sorties en plein air.",
     image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -167,6 +183,7 @@ export const Produits = [
     stock: 45,
     taille: ["S", "M", "L"],
     couleur: ["Noir", "Blanc"],
+    description: "Débardeur léger et respirant, parfait pour le sport ou les journées chaudes.",
     image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -177,16 +194,18 @@ export const Produits = [
     stock: 16,
     taille: [40, 41, 42],
     couleur: ["Noir", "Bleu marine"],
+    description: "Chaussures classiques et polyvalentes pour un look chic et pratique au quotidien.",
     image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 19,
     nom: "Cardigan léger",
     categorie: "Vêtements",
-    prix: 32.00,
+    prix: 32.0,
     stock: 25,
     taille: ["M", "L"],
     couleur: ["Beige", "Gris"],
+    description: "Cardigan léger et chic, parfait pour ajouter une touche élégante à toute tenue.",
     image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
   },
   {
@@ -197,6 +216,7 @@ export const Produits = [
     stock: 30,
     taille: [39, 40, 41, 42],
     couleur: ["Bleu", "Blanc"],
+    description: "Espadrilles souples et légères, parfaites pour un style estival décontracté.",
     image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80"
   }
 ];
